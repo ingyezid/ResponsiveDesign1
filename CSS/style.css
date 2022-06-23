@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8 {
+    width: 100%;
+    min-width: 150px;
+    height: 100px;
+} 
+
+.c1 {
+    background-color: red;
+}
+
+.c2 {
+  background-color:orange;
+}
+
+.c3 {
+    background-color: yellow;
+}
+
+.c4 {
+    background-color: green;
+}
+
+.c5 {
+    background-color: cyan;
+}
+
+.c6 {
+    background-color: blue;
+}
+
+.c7 {
+    background-color: indigo;
+}
+
+.c8 {
+    background-color : violet;
+}
